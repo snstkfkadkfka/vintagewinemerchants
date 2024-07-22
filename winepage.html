@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Icon.png">
+    <link rel="apple-touch-icon" href="img/Icon.png">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/winestyle.css">
+    <script defer src="js/script2.js"></script>
+    <title>와인/Wine</title>
+</head>
+
+<body>
+    <!-- ================사이드 메뉴창 -->
+    <div class="sideBox">
+        <span class="material-symbols-outlined">
+            close
+        </span>
+        <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="winepage.html">와인</a></li>
+            <li><a href="#">맥주 & 사이다</a></li>
+            <li><a href="#">선물</a></li>
+            <li><a href="#">주정</a></li>
+            <li><a href="#">문의하기</a></li>
+        </ul>
+        <div class="img"><a href="index.html"><img src="img/logoicon.svg" alt="로고 엠블럼"></a></div>
+    </div>
+
+
+
+    <!-- ==================검색창 -->
+    <div id="SEARCH">
+        <h2>SEARCH</h2>
+        <form class="search-box" action="" method="get">
+            <div class="bin">
+
+                <button class="search-button" type="submit"><img src="img/search/search.svg" alt="search"></button>
+                <input class="search-text" name="" type="text" placeholder="검색어를 입력하세요.">
+            </div>
+        </form>
+        <div class="suggest">
+            <h3>이달의 추천</h3>
+        </div>
+        <ul>
+            <li><a href="detailPage.html">
+                    <div class="img">
+                        <img src="img/search/Rectangle 25.jpg" alt="도츠, 브뤼로제와인">
+                    </div>
+                    <div class="wine-text">
+                        <em>Deutz, Brut Rose</em>
+                        <h4>도츠, 브뤼 로제 <span>(12.5%)</span> </h4>
+                        <p class="France">프랑스<span>(France)</span> / 샹빠뉴</p>
+                        <p class="sale">88,754원 </p><span>10%</span>
+                        <p class="price">79,879<i>원</i></p>
+                    </div>
+                </a></li>
+        </ul>
+        <button><img src="img/search/X.svg" alt="닫기 버튼"></button>
+    </div>
+
+
+    <!-- =======================헤더 -->
+    <header>
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+        <ul>
+            <li class="l_menu">
+                <div class="strok"></div>
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="winepage.html">와인</a></li>
+                    <li><a href="#">맥주 & 사이다</a></li>
+                </ul>
+            </li>
+            <li class="Logo">
+                <h1><a href="index.html"><img src="img/whiteLogo.svg" alt="vintagewinemerchants 로고"></a></h1>
+            </li>
+            <li class="r_menu">
+                <div class="strok"></div>
+                <ul>
+                    <li><a href="#">선물</a></li>
+                    <li><a href="#">주정</a></li>
+                    <li><a href="#">문의하기</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search">
+            <ul>
+                <li class="pp"><a href="#"><img src="img/search.svg" alt="검색"></a></li>
+                <li><a href="#"><img src="img/account.svg" alt="로그인"></a></li>
+                <li><a href="#"><img src="img/cart.svg" alt="장바구니"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ================타이틀 -->
+    <div class="winw-titel">
+        <div class="img"></div>
+        <div class="bg"></div>
+        <h1>WINE</h1>
+        <p>와인</p>
+    </div>
+
+    <!-- ================콘텐츠 -->
+    <article>
+
+        <div class="contents">
+    
+            <div class="select">
+                <div class="top">
+                    <h2>종류별</h2>
+                    <ul>
+                        <li class="on"><a href="#">전체</a></li>
+                        <li><a href=".bottom">와인</a></li>
+                        <li><a href="#">와인 케이스</a>
+                        </li>
+                        <li><a href="#">와인 액세서리</a></li>
+                        <li><a href="#">선물</a></li>
+    
+                    </ul>
+                </div>
+    
+                <div class="bottom">
+                    <h2>국가별</h2>
+                    <ul class="sub">
+                        <li class="on"><a href="#">전체</a></li>
+                        <li><a href="#">구루지야</a></li>
+                        <li><a href="#">그리스</a></li>
+                        <li><a href="#">남아프리카</a></li>
+                        <li><a href="#">뉴질랜드</a></li>
+                        <li><a href="#">독일</a></li>
+                        <li><a href="#">레바논</a></li>
+                        <li><a href="#">루마니아</a></li>
+                        <li><a href="#">미국</a></li>
+                        <li><a href="#">스페인</a></li>
+                        <li><a href="#">슬로베니아</a></li>
+                        <li><a href="#">아르헨티나</a></li>
+                        <li><a href="#">영국</a></li>
+                        <li><a href="#">오스트리아</a></li>
+                        <li><a href="#">우루과이</a></li>
+                        <li><a href="#">이탈리아</a></li>
+                        <li><a href="#">칠레</a></li>
+                        <li><a href="#">캐나다</a></li>
+                        <li><a href="#">크로니아</a></li>
+                        <li><a href="#">포루투갈</a></li>
+                        <li><a href="#">프랑스</a></li>
+                        <li><a href="#">헝가리</a></li>
+                        <li><a href="#">호주</a></li>
+                        <li><a href="#">기타국가</a></li>
+                    </ul>
+    
+                    <!-- <ul class="sub2">
+                        <li class="on"><a href="#">전체</a></li>
+                        <li><a href="#">디너파티케이스</a></li>
+                        <li><a href="#">럭키딥 케이스</a></li>
+                        <li><a href="#">매일 케이스</a></li>
+                        <li><a href="#">메니저 케이스</a></li>
+                        <li><a href="#">테이스팅 케이스</a></li>
+                        <li><a href="#">프리미엄 케이스</a></li>
+                    </ul> -->
+                </div>
+    
+            </div>
+            <div class="mobile_select">
+                <select name="type" id="type">
+                    <option value="종류별" selected disabled>종류별</option>
+                    <option value="전체">전체</option>
+                    <option value="와인">와인</option>
+                    <option value="와인 케이스">와인 케이스</option>
+                    <option value="와인 액세서리">와인 액세서리</option>
+                    <option value="선물">선물</option>
+                </select>
+                <select name="nation" id="nation">
+                    <option value="국가별" selected disabled>국가별</option>
+                    <option value="전체">전체</option>
+                    <option value="구루지야">구루지야체</option>
+                    <option value="그리스">그리스</option>
+                    <option value="남아프리카">남아프리카</option>
+                    <option value="뉴질랜드">뉴질랜드</option>
+                    <option value="독일">독일</option>
+                    <option value="레바논">레바논</option>
+                    <option value="루마니아">루마니아</option>
+                    <option value="미국">미국</option>
+                    <option value="스페인">스페인</option>
+                    <option value="슬로베니아">슬로베니아</option>
+                    <option value="아르헨티나">아르헨티나</option>
+                    <option value="영국">영국</option>
+                    <option value="오스트리아">오스트리아</option>
+                    <option value="우루과이">우루과이</option>
+                    <option value="이탈리아">이탈리아</option>
+                    <option value="칠레">칠레</option>
+                    <option value="캐나다">캐나다</option>
+                    <option value="크로니아">크로니아</option>
+                    <option value="포루투갈">포루투갈</option>
+                    <option value="프랑스">프랑스</option>
+                    <option value="헝가리">헝가리</option>
+                    <option value="호주">호주</option>
+                    <option value="기타국가">기타국가</option>
+                </select>
+            </div>
+            <div class="container">
+                <div class="conbox">
+                    <h3>가격별</h3>
+                    <div id="rangeValue">500,000</div>
+                    <input type="range" id="rangeInput" min="0" max="500000" value="500000" step="1">
+                </div>
+    
+            </div>
+            <div class="showcase">
+                <ul>
+                    <li><a href="#">
+                            <img src="img/winepage/wine1.jpg" alt="벤 마르코 말벡 비건 프렌들리"> </a>
+                        <div class="textbox">
+                            <i>Ben Marco Malbec Vegan Friendly </i>
+                            <p>벤 마르코 말벡 비건 프렌들리 <span>(14%)</span></p>
+                            <b>25,448<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine2.jpg" alt="하트랜드 시라즈"> </a>
+                        <div class="textbox">
+                            <i>Heartland Shiraz </i>
+                            <p>하트랜드 시라즈 <span>(14%)</span></p>
+                            <b>25,726<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine3.jpg" alt="호플러 그루너 벨트리너"> </a>
+                        <div class="textbox">
+                            <i>Hopler Gruner Veltliner </i>
+                            <p>호플러 그루너 벨트리너 <span>(12.5%)</span></p>
+                            <b>26,614<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine4.jpg" alt="헨리 오브 펠햄 샤르도네
+                        바이오다이나믹 와인"> </a>
+                        <div class="textbox">
+                            <i>Henry of Pelham Chardonnay Bio-dynamic Wine </i>
+                            <p>헨리 오브 펠햄 샤르도네 <br>
+                                바이오다이나믹 와인 <span>(12.5%)</span></p>
+                            <b>30,165<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine5.jpg" alt="데 마르티노, 레가도 레세르바 
+                        샤르도네"> </a>
+                        <div class="textbox">
+                            <i>De Martino, Legado Reserva Chardonnay</i>
+                            <p>데 마르티노, 레가도 레세르바 <br>
+                                샤르도네 <span>(750ml)</span></p>
+                            <b>21,287<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine6.jpg" alt="베랄다 마바지아 이스트리아나 
+                        화이트 "> </a>
+                        <div class="textbox">
+                            <i>Veralda Mavazija Istriana White </i>
+                            <p>베랄다 마바지아 이스트리아나 <br>
+                                화이트 <span>(14.5%)</span></p>
+                            <b>24,838<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">
+                            <img src="img/winepage/wine7.jpg" alt="엑스턴 파크 RB28 블랑 드 누아르"> </a>
+                        <div class="textbox">
+                            <i>Exton Park Rb28 Blanc de Noirs</i>
+                            <p>엑스턴 파크 RB28 블랑 드 누아르 <span>(12.5%)</span></p>
+                            <b>76,326<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="detailPage.html">
+                            <img src="img/winepage/wine8.jpg" alt="도츠, 브뤼 로제"> </a>
+                        <div class="textbox">
+                            <i>Deutz, Brut Rose </i>
+                            <p>도츠, 브뤼 로제 <span>(12.5%)</span></p>
+                            <em>88,754 <span>원</span></em><strong>10%</strong>
+                            <b>79,879<span>원</span></b>
+                            <div class="icon">
+                                <img src="img/winepage/smollCrat.svg" alt="장바구니">
+                            </div>
+                        </div>
+                    </li>
+                
+                </ul>
+            </div>
+    
+            <div class="number">
+                <div class="left">
+                    <img src="img/winepage/L_left.svg" alt="맨 외쪽으로">
+                    <img src="img/winepage/left.svg" alt="왼쪽으로">
+                </div>
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul>
+                <div class="right">
+                    <img src="img/winepage/right.svg" alt="오른쪽으로">
+                    <img src="img/winepage/R_right.svg" alt="맨 오른쪽으로">
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div id="foobox">
+            <img src="img/whiteLogo.svg" alt="vintagewinemerchants 로고">
+            <h2>INFORMATION</h2>
+            <ul class="f_menu">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">배송및 반품</a></li>
+                <li><a href="#">문의하기</a></li>
+                <li><a href="#">쿠키 및 개인정보 보호</a></li>
+            </ul>
+            <div class="capy">
+                Antrim Location: 33 Church Street, Antrim, County Antrim, BT414BE <br>
+                Tel: 028 9446 2526 <br>
+                Randalstown Location: 3 Moores Lane, Randalstown, County Antrim, BT413GE <br>
+                Tel: 028 9447 3864
+            </div>
+            <p>© 2024 The Vintage Wine Merchants</p>
+            <div class="sns">
+                <h2>SNS</h2>
+                <ul>
+                    <li><a href="#"><img src="img/main/face.svg" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/main/insta.svg" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>PAYMENTS</h2>
+                <ul>
+                    <li><img src="img/main/visa.svg" alt="visa"></li>
+                    <li><img src="img/main/master.svg" alt="mastercard"></li>
+                    <li><img src="img/main/card.svg" alt="card"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ==================푸터 -->
+</body>
+
+</html>
