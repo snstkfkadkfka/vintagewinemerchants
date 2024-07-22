@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vintagewinemerchants</title>
+  <link rel="icon" href="img/Icon.png">
+  <link rel="apple-touch-icon" href="img/Icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+  <!-- ================사이드 메뉴창 -->
+  <div class="sideBox">
+    <span class="material-symbols-outlined">
+      close
+    </span>
+    <ul>
+      <li><a href="#">회사소개</a></li>
+      <li><a href="winepage.html">와인</a></li>
+      <li><a href="#">맥주 & 사이다</a></li>
+      <li><a href="#">선물</a></li>
+      <li><a href="#">주정</a></li>
+      <li><a href="#">문의하기</a></li>
+    </ul>
+    <div class="img"><a href="index.html"><img src="img/logoicon.svg" alt="로고 엠블럼"></a></div>
+  </div>
+
+
+  <!-- =======검색창 -->
+  <div id="SEARCH">
+    <h2>SEARCH</h2>
+    <form class="search-box" action="" method="get">
+      <div class="bin">
+        <button class="search-button" type="submit"><img src="img/search/search.svg" alt="search"></button>
+        <input class="search-text" name="" type="text" placeholder="검색어를 입력하세요.">
+      </div>
+    </form>
+    <div class="suggest">
+      <h3>이달의 추천</h3>
+    </div>
+    <ul>
+      <li><a href="detailPage.html">
+          <div class="img">
+            <img src="img/search/Rectangle 25.jpg" alt="도츠, 브뤼로제와인">
+          </div>
+          <div class="wine-text">
+            <em>Deutz, Brut Rose</em>
+            <h4>도츠, 브뤼 로제 <span>(12.5%)</span> </h4>
+            <p class="France">프랑스<span>(France)</span> / 샹빠뉴</p>
+            <p class="sale">88,754원 </p><span>10%</span>
+            <p class="price">79,879<i>원</i></p>
+          </div>
+        </a></li>
+    </ul>
+    <button><img src="img/search/X.svg" alt="닫기 버튼"></button>
+  </div>
+
+
+  <!-- ==============헤더 -->
+  <header>
+    <span class="material-symbols-outlined">
+      menu
+    </span>
+    <ul>
+      <li class="l_menu">
+        <div class="strok"></div>
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li><a href="winepage.html">와인</a></li>
+          <li><a href="#">맥주 & 사이다</a></li>
+        </ul>
+      </li>
+
+      <li class="Logo">
+        <h1><a href="index.html"><img src="img/whiteLogo.svg" alt="vintagewinemerchants 로고"></a></h1>
+      </li>
+
+      <li class="r_menu">
+        <div class="strok"></div>
+        <ul>
+          <li><a href="#">선물</a></li>
+          <li><a href="#">주정</a></li>
+          <li><a href="#">문의하기</a></li>
+        </ul>
+
+      </li>
+    </ul>
+
+    <div class="search">
+      <ul>
+        <li class="pp"><a href="#"><img src="img/search.svg" alt="검색"></a></li>
+        <li><a href="#"><img src="img/account.svg" alt="로그인"></a></li>
+        <li><a href="#"><img src="img/cart.svg" alt="장바구니"></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==============비디오 -->
+  <div class="video">
+    <video src="img/main/wine.mp4" autoplay muted loop></video>
+  </div>
+
+  <!-- =================텍스트 -->
+  <div class="text1">
+    <p>우리 <span>"THE VINTAGE WINE MERCHANTS"</span>는 고객님을 위해 <br>
+      <i>최고 와인, 맥주,스피릿 ,리큐어등을 집접 선정하여 관리/보관하고 있습니다.</i>
+    </p>
+  </div>
+  <div class="text2">
+    <p>우리 <span>"THE VINTAGE WINE MERCHANTS"</span>는 <br>
+
+      <i>고객님을 위해 최고 와인, 맥주,스피릿 ,리큐어 등을 <br>집접 선정하여 관리/보관하고 있습니다.</i>
+    </p>
+  </div>
+
+  <!-- =================콘텐츠 -->
+  <div class="contents">
+    <ul>
+      <li class="img">
+        <img src="img/main/contentsImg.jpg" alt="샴페인 따르는 사진">
+      </li>
+      <li class="text">
+        <h2>introduce</h2>
+        <p><span>1975</span>년에 설립된
+          <span>The Vintage Wine Merchants</span> 는 와인, 맥주, 에일, 스피릿을
+          포함한 다양하고 흥미진진한 고품질 제품을 제공하는 독립 매장입니다. <br>
+          <span>The Vintage Wine Merchants</span>
+          는 모든 고객을 만족시키는 것을 목표로 합니다. <br>
+          따라서 모든 제품은 경영진이 특별히 선정하여 최고의 기준을 보장합니다. <br>
+          <br>
+          아무리 희귀하고 이국적이며 이상하더라도, 우리는 당신이 가장 좋아하는 음료와
+          재회할 수 있도록 확실히 도울 것입니다. 두 매장 중 하나에 들러서 직원에게 물어
+          보세요.
+          <button>
+            매장위치, 영업시간 알아보기
+            <img src="img/main/leftMark.svg" alt="들어가기 화살표">
+          </button>
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ============ 슬라이드 -->
+
+  <div class="slide" >
+    <div class=" swiper-container slider">
+      <h2>Goods</h2>
+      <div class="bg"><img src="img/main/bg1.png" alt="와인 배경 일러스트"></div>
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <ul class="slidebox">
+            <li class="img1">
+              <!-- <img src="img/main/slide1.png" alt="와인"> -->
+            </li>
+
+            <li class="font">
+              <h3>wine <span>(와인)</span></h3>
+              <p>고객님이 원하시는 세계 여러 나라의 포도주와 다양한
+                와인이 준비되어 있습니다. <br>
+                그뿐만이 아니라 와인 케이스와 액세서리도 구비되어
+                있으니, 나만의 와인을 찾아보세요.
+              </p>
+              <br>
+              <i>
+                #디저트와인&nbsp;&nbsp;&nbsp;#강화와인&nbsp;&nbsp;&nbsp;
+                #적포도주&nbsp;&nbsp;&nbsp;
+                #장미와인&nbsp;&nbsp;&nbsp; <br>
+                #스파클링/샴페&nbsp;&nbsp;&nbsp;
+                #백포도주&nbsp;&nbsp;&nbsp;
+                #와인케이스
+              </i>
+              <button>
+                와인 보러가기
+                <span class="material-symbols-outlined">
+                  arrow_forward_ios
+                </span>
+              </button>
+            </li>
+          </ul>
+        </li>
+
+        <li class="swiper-slide">
+          <ul class="slidebox">
+            <li class="img2">
+              <!-- <img src="img/main/slide2.png" alt="와인"> -->
+            </li>
+
+            <li class="font">
+              <h3>gifts <span>(선물)</span></h3>
+              <p>특별한 사람에게 줄 유니크한 선물은 어떠신가요?<br>
+                여러 종류의 술과 그에 맞는 선물세트가 준비되어 있습니다. 
+                고풍스러운 기프트카드도 동봉하여 특별한 선물을 준비해 보세요.
+              </p>
+              <br>
+              <i>
+                #기프트카드&nbsp;&nbsp;&nbsp;#선물세트&nbsp;&nbsp;&nbsp;
+                #메그넘
+   
+              </i>
+              <button>
+                선물 보러가기
+                <span class="material-symbols-outlined">
+                  arrow_forward_ios
+                </span>
+              </button>
+            </li>
+          </ul>
+        </li>
+
+        <li class="swiper-slide">
+          <ul class="slidebox">
+            <li class="img3">
+              <!-- <img src="img/main/slide2.png" alt="와인"> -->
+            </li>
+
+            <li class="font">
+              <h3>beer&cider <span>(맥주&와인)</span></h3>
+              <p>세계 여러 나라의 맥주를 만나보세요. <br>
+                투명한 황금빛 라거와 과일 향이 풍겨오는 에일, 그리고 가볍게 마실 수 있는 사이다 등
+                여러 종류의 맥주가 준비되어 있습니다.
+                시원하게 식힌 맥주 한 모금은 어떠신가요?
+              </p>
+              <br>
+              <i>
+                #에일&nbsp;&nbsp;&nbsp;#사이다&nbsp;&nbsp;&nbsp;
+                #라거&nbsp;&nbsp;&nbsp;
+                #스타우트/포터
+          
+              </i>
+              <button>
+                맥주&와인 보러가기
+                <span class="material-symbols-outlined">
+                  arrow_forward_ios
+                </span>
+              </button>
+            </li>
+          </ul>
+        </li>
+
+        <li class="swiper-slide">
+          <ul class="slidebox">
+            <li class="img4">
+              <!-- <img src="img/main/slide1.png" alt="와인"> -->
+            </li>
+
+            <li class="font">
+              <h3>spirits <span>(주정)</span></h3>
+              <p>도수가 높은 술을 원하신다고요? 걱정마세요!<br>
+                와인과 맥주뿐만 아니라 높은 도수의 주정도 종류별로 갖춰져 있습니다.
+                세계 각지에서 모아온 여러 종류의 주정도 함께 즐겨보세요.
+              </p>
+              <br>
+              <i>
+                #브랜디와코냑&nbsp;&nbsp;&nbsp;#진&nbsp;&nbsp;&nbsp;
+                #아일랜드위스키&nbsp;&nbsp;&nbsp;
+                #리큐어&nbsp;&nbsp;&nbsp; <br>
+                #럼주&nbsp;&nbsp;&nbsp;
+                #스카치위스키&nbsp;&nbsp;&nbsp;
+                #테킬라/메스칼&nbsp;&nbsp;&nbsp; <br>
+                #보드카&nbsp;&nbsp;&nbsp;
+                #월드위스키
+              </i>
+              <button>
+                주정 보러가기
+                <span class="material-symbols-outlined">
+                  arrow_forward_ios
+                </span>
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+
+  </div>
+
+  <!-- ===============배너 -->
+  <div class="vanner">
+    <ul>
+      <li>
+        <div class="img1" id="img">
+
+        </div>
+        <h3>Buy online
+        </h3>
+        <p>가장 완벽한 선물은 당신이 선택한 선물입니다. <br>
+          가족, 친구 연인이 좋아하는 와인, 리큐어, 증류주를 직접 선택하여 선물해 보세요.</p>
+      </li>
+      <li>
+        <div class="img2" id="img">
+        </div>
+        <h3>Wine Association
+        </h3>
+        <p><span>Wine Associationdp </span>참여하시면 특별 거래
+          할인과 더붙여 월별로 실행하는 와인 시식회도
+          참여 가능합니다.</p>
+      </li>
+      <li>
+        <div class="img3" id="img">
+        </div>
+        <h3>Welcome to visit.
+        </h3>
+        <p>우리 <span>'THE VINTAGE WINE MERCHANTS'</span> 는
+          앤트림과 랜달스타운의 중심부에 위치한 지역 독립
+          와인 상인입니다.</p>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ==================푸터 -->
+  <footer>
+    <div id="foobox">
+      <img src="img/whiteLogo.svg" alt="vintagewinemerchants 로고">
+      <h2>INFORMATION</h2>
+      <ul class="f_menu">
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">배송및 반품</a></li>
+        <li><a href="#">문의하기</a></li>
+        <li><a href="#">쿠키 및 개인정보 보호</a></li>
+      </ul>
+      <div class="capy">
+        Antrim Location: 33 Church Street, Antrim, County Antrim, BT414BE <br>
+        Tel: 028 9446 2526 <br>
+        Randalstown Location: 3 Moores Lane, Randalstown, County Antrim, BT413GE <br>
+        Tel: 028 9447 3864
+      </div>
+      <p>© 2024 The Vintage Wine Merchants</p>
+      <div class="sns">
+        <h2>SNS</h2>
+        <ul>
+          <li><a href="#"><img src="img/main/face.svg" alt="페이스북"></a></li>
+          <li><a href="#"><img src="img/main/insta.svg" alt="인스타그램"></a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>PAYMENTS</h2>
+        <ul>
+          <li><img src="img/main/visa.svg" alt="visa"></li>
+          <li><img src="img/main/master.svg" alt="mastercard"></li>
+          <li><img src="img/main/card.svg" alt="card"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
